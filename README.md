@@ -1,5 +1,7 @@
 # Preprocessing Paradox: Enhancing Lightweight CNNs for Plant Disease Classification via Explainable AI
 
+[![DOI](https://zenodo.org/badge/1202775468.svg)](https://doi.org/10.5281/zenodo.19439063)
+
 **Authors**: Vaibhav Sharma, Rajni Ranjan Singh Makwana  
 **Affiliation**: Centre for Artificial Intelligence, Madhav Institute of Technology and Science, Gwalior, India
 
