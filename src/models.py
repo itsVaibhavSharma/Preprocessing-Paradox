@@ -19,6 +19,18 @@ def build_optimized_model(model_type, n_classes):
             # SqueezeNet has a different classifier structure
             model.classifier[1] = nn.Conv2d(512, n_classes, kernel_size=1)
             model.num_classes = n_classes
+        elif model_type == 'shufflenetv2':
+            model = models.shufflenet_v2_x1_0(pretrained=True)
+            in_features = model.fc.in_features
+            model.fc = nn.Linear(in_features, n_classes)
+        elif model_type == 'mobilenetv3':
+            model = models.mobilenet_v3_small(pretrained=True)
+            in_features = model.classifier[3].in_features
+            model.classifier[3] = nn.Linear(in_features, n_classes)
+        elif model_type == 'efficientnet_b0':
+            model = models.efficientnet_b0(pretrained=True)
+            in_features = model.classifier[1].in_features
+            model.classifier[1] = nn.Linear(in_features, n_classes)
         else:
             raise ValueError(f"Unknown model type: {model_type}")
         

@@ -29,14 +29,14 @@ class ResultsCompiler:
                 return
             
             df = pd.DataFrame(results)
-            df = df.sort_values('test_accuracy', ascending=False)
+            df = df.sort_values('test_accuracy_mean', ascending=False)
             
             csv_path = os.path.join(Config.OUTPUT_BASE, 'final_results', 'model_comparison.csv')
             df.to_csv(csv_path, index=False)
             
             print(f"\nTop 5 Models:")
             for idx, row in df.head().iterrows():
-                print(f"{row['model_name']}: {row['test_accuracy']:.4f}")
+                print(f"{row['model_name']}: {row['test_accuracy_mean']:.4f} ± {row['test_accuracy_std']:.4f}")
                 
         except Exception as e:
             print(f"Error creating summary: {e}")
@@ -60,29 +60,29 @@ class ResultsCompiler:
             fig, axes = plt.subplots(2, 2, figsize=(20, 16))
             
             # Accuracy by model type
-            model_acc = df.groupby('model_type')['test_accuracy'].mean().sort_values(ascending=False)
+            model_acc = df.groupby('model_type')['test_accuracy_mean'].mean().sort_values(ascending=False)
             model_acc.plot(kind='bar', ax=axes[0, 0], color='skyblue')
             axes[0, 0].set_title('Test Accuracy by Model Type')
             axes[0, 0].set_ylabel('Accuracy')
             axes[0, 0].grid(True, alpha=0.3)
             
             # Accuracy by segmentation
-            seg_acc = df.groupby('seg_method')['test_accuracy'].mean().sort_values(ascending=False)
+            seg_acc = df.groupby('seg_method')['test_accuracy_mean'].mean().sort_values(ascending=False)
             seg_acc.plot(kind='bar', ax=axes[0, 1], color='lightcoral')
             axes[0, 1].set_title('Test Accuracy by Segmentation')
             axes[0, 1].set_ylabel('Accuracy')
             axes[0, 1].grid(True, alpha=0.3)
             
             # Accuracy by augmentation
-            aug_acc = df.groupby('aug_type')['test_accuracy'].mean().sort_values(ascending=False)
+            aug_acc = df.groupby('aug_type')['test_accuracy_mean'].mean().sort_values(ascending=False)
             aug_acc.plot(kind='bar', ax=axes[1, 0], color='lightgreen')
             axes[1, 0].set_title('Test Accuracy by Augmentation')
             axes[1, 0].set_ylabel('Accuracy')
             axes[1, 0].grid(True, alpha=0.3)
             
             # Top models
-            top_models = df.nlargest(min(10, len(df)), 'test_accuracy')
-            axes[1, 1].barh(range(len(top_models)), top_models['test_accuracy'].values)
+            top_models = df.nlargest(min(10, len(df)), 'test_accuracy_mean')
+            axes[1, 1].barh(range(len(top_models)), top_models['test_accuracy_mean'].values)
             axes[1, 1].set_yticks(range(len(top_models)))
             axes[1, 1].set_yticklabels(top_models['model_name'].values, fontsize=8)
             axes[1, 1].set_xlabel('Accuracy')

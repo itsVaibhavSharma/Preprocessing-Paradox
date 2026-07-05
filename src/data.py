@@ -8,6 +8,8 @@ import torch
 from torch.utils.data import Dataset, DataLoader
 import torchvision.transforms as transforms
 
+import hashlib
+
 from src.config import Config
 from src.utils import get_class_names, save_metadata
 
@@ -71,23 +73,38 @@ class DatasetSplitter:
                 val_files = image_files[n_train:n_train + n_val]
                 test_files = image_files[n_train + n_val:]
                 
-                for split_name, files in [('train', train_files), ('val', val_files), ('test', test_files)]:
+                # Check for duplicates across dataset (exact match via md5 hash)
+                seen_hashes = set()
+                
+                def copy_unique_files(files, split_name):
                     split_class_path = os.path.join(self.output_path, split_name, class_name)
                     os.makedirs(split_class_path, exist_ok=True)
-                    
+                    copied_count = 0
                     for file in files:
                         try:
                             src = os.path.join(class_path, file)
-                            dst = os.path.join(split_class_path, file)
-                            shutil.copy2(src, dst)
+                            with open(src, 'rb') as f:
+                                file_hash = hashlib.md5(f.read()).hexdigest()
+                            if file_hash not in seen_hashes:
+                                seen_hashes.add(file_hash)
+                                dst = os.path.join(split_class_path, file)
+                                shutil.copy2(src, dst)
+                                copied_count += 1
                         except:
                             pass
+                    return copied_count
+                
+                actual_n_train = copy_unique_files(train_files, 'train')
+                actual_n_val = copy_unique_files(val_files, 'val')
+                actual_n_test = copy_unique_files(test_files, 'test')
+                
+                pass
                 
                 split_info['class_distribution'][class_name] = {
-                    'total': n_images,
-                    'train': n_train,
-                    'val': n_val,
-                    'test': n_test
+                    'total': actual_n_train + actual_n_val + actual_n_test,
+                    'train': actual_n_train,
+                    'val': actual_n_val,
+                    'test': actual_n_test
                 }
             
             save_metadata(split_info, 'dataset_split_info.json')
@@ -311,6 +328,21 @@ class CustomAugmentation:
                 h, w = image.shape[:2]
                 M = np.float32([[1, shear, 0], [0, 1, 0]])
                 image = cv2.warpAffine(image, M, (w, h), borderMode=cv2.BORDER_REFLECT)
+                
+            # Domain Shifts for External Validation Testing
+            if self.aug_config.get('domain_shift_blur', False):
+                image = cv2.GaussianBlur(image, (15, 15), 0)
+                
+            if self.aug_config.get('domain_shift_noise', False):
+                noise = np.random.normal(0, 25, image.shape).astype(np.float32)
+                image = cv2.add(image.astype(np.float32), noise)
+                image = np.clip(image, 0, 255).astype(np.uint8)
+                
+            if self.aug_config.get('domain_shift_brightness', False):
+                hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV).astype(np.float32)
+                hsv[:, :, 2] = hsv[:, :, 2] * 0.5  # Darken by 50%
+                hsv[:, :, 2] = np.clip(hsv[:, :, 2], 0, 255)
+                image = cv2.cvtColor(hsv.astype(np.uint8), cv2.COLOR_HSV2BGR)
             
             return image
         except:

@@ -1,0 +1,34 @@
+{
+    "SG-KMEANS-cropping_heavy_efficientnet_b0_vs_Baseline_heavy_efficientnet_b0": {
+        "p_value": 3.079037744278066e-13,
+        "statistic": 53.15714285714286
+    },
+    "SG-KMEANS-cropping_standard_efficientnet_b0_vs_Baseline_standard_efficientnet_b0": {
+        "p_value": 1.7855922719969197e-07,
+        "statistic": 27.252336448598133
+    },
+    "SG-KMEANS-masking_heavy_efficientnet_b0_vs_Baseline_heavy_efficientnet_b0": {
+        "p_value": 7.027197684667422e-68,
+        "statistic": 303.07987220447285
+    },
+    "SG-KMEANS-masking_standard_efficientnet_b0_vs_Baseline_standard_efficientnet_b0": {
+        "p_value": 2.4634167643959363e-23,
+        "statistic": 99.04891304347827
+    },
+    "SG-OTSU-cropping_heavy_efficientnet_b0_vs_Baseline_heavy_efficientnet_b0": {
+        "p_value": 1.5564763744776358e-06,
+        "statistic": 23.076923076923077
+    },
+    "SG-OTSU-cropping_standard_efficientnet_b0_vs_Baseline_standard_efficientnet_b0": {
+        "p_value": 0.11822511872392379,
+        "statistic": 2.440677966101695
+    },
+    "SG-OTSU-masking_heavy_efficientnet_b0_vs_Baseline_heavy_efficientnet_b0": {
+        "p_value": 2.9022191489411463e-12,
+        "statistic": 48.7536231884058
+    },
+    "SG-OTSU-masking_standard_efficientnet_b0_vs_Baseline_standard_efficientnet_b0": {
+        "p_value": 0.2891455637972481,
+        "statistic": 1.1235955056179776
+    }
+}

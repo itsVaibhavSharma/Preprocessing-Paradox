@@ -1,0 +1,9 @@
+{
+    "seed": 46,
+    "test_accuracy": 0.9842039131215222,
+    "test_precision": 0.9845491860527645,
+    "test_recall": 0.9842039131215222,
+    "test_f1_score": 0.9842197021010886,
+    "training_time_seconds": 904.9940161705017,
+    "best_epoch": 24
+}

@@ -28,13 +28,18 @@ class Config:
     WEIGHT_DECAY = 1e-4
     EARLY_STOP_PATIENCE = 8
     
-    # GPU Optimization - WINDOWS/JUPYTER
+    # Random seeds for statistical robustness
+    RANDOM_SEEDS = [42, 43, 44, 45, 46]
+    
+    # GPU Optimization - High-End Cluster (Windows Safe)
     MIXED_PRECISION = True
-    USE_TORCH_COMPILE = False  # Disable for now (causes loading issues)
-    NUM_WORKERS = 0  # Must be 0 on Windows with Jupyter
+    USE_TORCH_COMPILE = False  # Disable for now (causes loading issues on Windows)
+    # Windows OS uses 'spawn' instead of 'fork' for multiprocessing, causing 
+    # massive virtual memory (page file) spikes. Capped at 4 to prevent WinError 1455.
+    NUM_WORKERS = 4  
     PIN_MEMORY = True
-    PERSISTENT_WORKERS = False  # Must be False when num_workers=0
-    PREFETCH_FACTOR = None  # Must be None when num_workers=0
+    PERSISTENT_WORKERS = True
+    PREFETCH_FACTOR = 2
     
     # Preprocessing cache
     USE_CACHE = True  # Cache preprocessed images to SSD
@@ -63,6 +68,9 @@ class Config:
         'shear_range': 0.2
     }
     
+    # Domain shifts for external validation simulation
+    DOMAIN_SHIFTS = ['blur', 'noise', 'brightness']
+    
     # Sample saving parameters
     SAMPLE_IMAGES_PER_STEP = 20
     GRADCAM_IMAGES_PER_CLASS = 10
@@ -71,7 +79,7 @@ class Config:
     SEGMENTATION_METHODS = ['none', 'otsu', 'kmeans']
     INPUT_METHODS = ['raw', 'masking', 'cropping']
     AUGMENTATION_TYPES = ['standard', 'heavy']
-    MODEL_TYPES = ['mobilenetv2', 'squeezenet']  
+    MODEL_TYPES = ['mobilenetv2', 'squeezenet', 'shufflenetv2', 'mobilenetv3', 'efficientnet_b0']
     
     # Device configuration
     DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')

@@ -1,0 +1,1112 @@
+{
+    "dataset_split": true,
+    "preprocessing_samples": true,
+    "preprocessing_cache": {},
+    "trained_models": [
+        "Baseline_standard_mobilenetv2",
+        "SG-OTSU-masking_standard_mobilenetv2",
+        "SG-OTSU-cropping_standard_mobilenetv2",
+        "SG-KMEANS-masking_standard_mobilenetv2",
+        "SG-KMEANS-cropping_standard_mobilenetv2",
+        "Baseline_heavy_mobilenetv2",
+        "SG-OTSU-masking_heavy_mobilenetv2",
+        "SG-OTSU-cropping_heavy_mobilenetv2",
+        "SG-KMEANS-masking_heavy_mobilenetv2",
+        "SG-KMEANS-cropping_heavy_mobilenetv2",
+        "Baseline_standard_squeezenet",
+        "SG-OTSU-masking_standard_squeezenet",
+        "SG-OTSU-cropping_standard_squeezenet",
+        "SG-KMEANS-masking_standard_squeezenet",
+        "SG-KMEANS-cropping_standard_squeezenet",
+        "Baseline_heavy_squeezenet",
+        "SG-OTSU-masking_heavy_squeezenet",
+        "SG-OTSU-cropping_heavy_squeezenet",
+        "SG-KMEANS-masking_heavy_squeezenet",
+        "SG-KMEANS-cropping_heavy_squeezenet",
+        "Baseline_standard_shufflenetv2",
+        "SG-OTSU-masking_standard_shufflenetv2",
+        "SG-OTSU-cropping_standard_shufflenetv2",
+        "SG-KMEANS-masking_standard_shufflenetv2",
+        "SG-KMEANS-cropping_standard_shufflenetv2",
+        "Baseline_heavy_shufflenetv2",
+        "SG-OTSU-masking_heavy_shufflenetv2",
+        "SG-OTSU-cropping_heavy_shufflenetv2",
+        "SG-KMEANS-masking_heavy_shufflenetv2",
+        "SG-KMEANS-cropping_heavy_shufflenetv2",
+        "Baseline_standard_mobilenetv3",
+        "SG-OTSU-masking_standard_mobilenetv3",
+        "SG-OTSU-cropping_standard_mobilenetv3",
+        "SG-KMEANS-masking_standard_mobilenetv3",
+        "SG-KMEANS-cropping_standard_mobilenetv3",
+        "Baseline_heavy_mobilenetv3",
+        "SG-OTSU-masking_heavy_mobilenetv3",
+        "SG-OTSU-cropping_heavy_mobilenetv3",
+        "SG-KMEANS-masking_heavy_mobilenetv3",
+        "SG-KMEANS-cropping_heavy_mobilenetv3",
+        "Baseline_standard_efficientnet_b0",
+        "SG-OTSU-masking_standard_efficientnet_b0",
+        "SG-OTSU-cropping_standard_efficientnet_b0",
+        "SG-KMEANS-masking_standard_efficientnet_b0",
+        "SG-KMEANS-cropping_standard_efficientnet_b0",
+        "Baseline_heavy_efficientnet_b0",
+        "SG-OTSU-masking_heavy_efficientnet_b0",
+        "SG-OTSU-cropping_heavy_efficientnet_b0",
+        "SG-KMEANS-masking_heavy_efficientnet_b0",
+        "SG-KMEANS-cropping_heavy_efficientnet_b0"
+    ],
+    "model_training_state": {
+        "Baseline_standard_mobilenetv2_seed42": {
+            "last_epoch": 34,
+            "best_val_loss": 0.015289011767061263
+        },
+        "Baseline_standard_mobilenetv2_seed43": {
+            "last_epoch": 46,
+            "best_val_loss": 0.009362708581541573
+        },
+        "Baseline_standard_mobilenetv2_seed44": {
+            "last_epoch": 49,
+            "best_val_loss": 0.011431666719974226
+        },
+        "Baseline_standard_mobilenetv2_seed45": {
+            "last_epoch": 14,
+            "best_val_loss": 0.052686830189104666
+        },
+        "Baseline_standard_mobilenetv2_seed46": {
+            "last_epoch": 18,
+            "best_val_loss": 0.027025613478758048
+        },
+        "SG-OTSU-masking_standard_mobilenetv2_seed42": {
+            "last_epoch": 21,
+            "best_val_loss": 0.08112327279027523
+        },
+        "SG-OTSU-masking_standard_mobilenetv2_seed43": {
+            "last_epoch": 50,
+            "best_val_loss": 0.02625619549266495
+        },
+        "SG-OTSU-masking_standard_mobilenetv2_seed44": {
+            "last_epoch": 41,
+            "best_val_loss": 0.035968587680211155
+        },
+        "SG-OTSU-masking_standard_mobilenetv2_seed45": {
+            "last_epoch": 37,
+            "best_val_loss": 0.04366405483522667
+        },
+        "SG-OTSU-masking_standard_mobilenetv2_seed46": {
+            "last_epoch": 18,
+            "best_val_loss": 0.06457824553044494
+        },
+        "SG-OTSU-cropping_standard_mobilenetv2_seed42": {
+            "last_epoch": 41,
+            "best_val_loss": 0.024801256699023087
+        },
+        "SG-OTSU-cropping_standard_mobilenetv2_seed43": {
+            "last_epoch": 50,
+            "best_val_loss": 0.021700990857361636
+        },
+        "SG-OTSU-cropping_standard_mobilenetv2_seed44": {
+            "last_epoch": 16,
+            "best_val_loss": 0.06548499079758906
+        },
+        "SG-OTSU-cropping_standard_mobilenetv2_seed45": {
+            "last_epoch": 31,
+            "best_val_loss": 0.03417122637997292
+        },
+        "SG-OTSU-cropping_standard_mobilenetv2_seed46": {
+            "last_epoch": 33,
+            "best_val_loss": 0.02330180523203166
+        },
+        "SG-KMEANS-masking_standard_mobilenetv2_seed42": {
+            "last_epoch": 31,
+            "best_val_loss": 0.1619639817653598
+        },
+        "SG-KMEANS-masking_standard_mobilenetv2_seed43": {
+            "last_epoch": 46,
+            "best_val_loss": 0.12724114236648731
+        },
+        "SG-KMEANS-masking_standard_mobilenetv2_seed44": {
+            "last_epoch": 13,
+            "best_val_loss": 0.3589150185089719
+        },
+        "SG-KMEANS-masking_standard_mobilenetv2_seed45": {
+            "last_epoch": 18,
+            "best_val_loss": 0.275817416357554
+        },
+        "SG-KMEANS-masking_standard_mobilenetv2_seed46": {
+            "last_epoch": 39,
+            "best_val_loss": 0.1251452837626096
+        },
+        "SG-KMEANS-cropping_standard_mobilenetv2_seed42": {
+            "last_epoch": 44,
+            "best_val_loss": 0.07338694824155931
+        },
+        "SG-KMEANS-cropping_standard_mobilenetv2_seed43": {
+            "last_epoch": 20,
+            "best_val_loss": 0.11488605225664353
+        },
+        "SG-KMEANS-cropping_standard_mobilenetv2_seed44": {
+            "last_epoch": 48,
+            "best_val_loss": 0.06810432161503498
+        },
+        "SG-KMEANS-cropping_standard_mobilenetv2_seed45": {
+            "last_epoch": 48,
+            "best_val_loss": 0.07988307926125644
+        },
+        "SG-KMEANS-cropping_standard_mobilenetv2_seed46": {
+            "last_epoch": 50,
+            "best_val_loss": 0.07910473386201249
+        },
+        "Baseline_heavy_mobilenetv2_seed42": {
+            "last_epoch": 22,
+            "best_val_loss": 0.053873246958006715
+        },
+        "Baseline_heavy_mobilenetv2_seed43": {
+            "last_epoch": 50,
+            "best_val_loss": 0.015029907852219804
+        },
+        "Baseline_heavy_mobilenetv2_seed44": {
+            "last_epoch": 13,
+            "best_val_loss": 0.10241603081384583
+        },
+        "Baseline_heavy_mobilenetv2_seed45": {
+            "last_epoch": 20,
+            "best_val_loss": 0.02518500875576473
+        },
+        "Baseline_heavy_mobilenetv2_seed46": {
+            "last_epoch": 36,
+            "best_val_loss": 0.021247088066981435
+        },
+        "SG-OTSU-masking_heavy_mobilenetv2_seed42": {
+            "last_epoch": 11,
+            "best_val_loss": 0.25863744340327355
+        },
+        "SG-OTSU-masking_heavy_mobilenetv2_seed43": {
+            "last_epoch": 50,
+            "best_val_loss": 0.0633683259545991
+        },
+        "SG-OTSU-masking_heavy_mobilenetv2_seed44": {
+            "last_epoch": 34,
+            "best_val_loss": 0.07881770792497787
+        },
+        "SG-OTSU-masking_heavy_mobilenetv2_seed45": {
+            "last_epoch": 14,
+            "best_val_loss": 0.153111361077718
+        },
+        "SG-OTSU-masking_heavy_mobilenetv2_seed46": {
+            "last_epoch": 45,
+            "best_val_loss": 0.08295179832924914
+        },
+        "SG-OTSU-cropping_heavy_mobilenetv2_seed42": {
+            "last_epoch": 20,
+            "best_val_loss": 0.07340838003787675
+        },
+        "SG-OTSU-cropping_heavy_mobilenetv2_seed43": {
+            "last_epoch": 33,
+            "best_val_loss": 0.0487553283334226
+        },
+        "SG-OTSU-cropping_heavy_mobilenetv2_seed44": {
+            "last_epoch": 35,
+            "best_val_loss": 0.05073687175377783
+        },
+        "SG-OTSU-cropping_heavy_mobilenetv2_seed45": {
+            "last_epoch": 14,
+            "best_val_loss": 0.1079430831336712
+        },
+        "SG-OTSU-cropping_heavy_mobilenetv2_seed46": {
+            "last_epoch": 30,
+            "best_val_loss": 0.04801426284079896
+        },
+        "SG-KMEANS-masking_heavy_mobilenetv2_seed42": {
+            "last_epoch": 25,
+            "best_val_loss": 0.38225531324587825
+        },
+        "SG-KMEANS-masking_heavy_mobilenetv2_seed43": {
+            "last_epoch": 28,
+            "best_val_loss": 0.24137988194170698
+        },
+        "SG-KMEANS-masking_heavy_mobilenetv2_seed44": {
+            "last_epoch": 27,
+            "best_val_loss": 0.31812953410742295
+        },
+        "SG-KMEANS-masking_heavy_mobilenetv2_seed45": {
+            "last_epoch": 42,
+            "best_val_loss": 0.25812332825603757
+        },
+        "SG-KMEANS-masking_heavy_mobilenetv2_seed46": {
+            "last_epoch": 24,
+            "best_val_loss": 0.3806769380125497
+        },
+        "SG-KMEANS-cropping_heavy_mobilenetv2_seed42": {
+            "last_epoch": 50,
+            "best_val_loss": 0.07333382528640635
+        },
+        "SG-KMEANS-cropping_heavy_mobilenetv2_seed43": {
+            "last_epoch": 50,
+            "best_val_loss": 0.06977426470366889
+        },
+        "SG-KMEANS-cropping_heavy_mobilenetv2_seed44": {
+            "last_epoch": 37,
+            "best_val_loss": 0.08691475960185702
+        },
+        "SG-KMEANS-cropping_heavy_mobilenetv2_seed45": {
+            "last_epoch": 50,
+            "best_val_loss": 0.0707957206568315
+        },
+        "SG-KMEANS-cropping_heavy_mobilenetv2_seed46": {
+            "last_epoch": 50,
+            "best_val_loss": 0.0787743336190424
+        },
+        "Baseline_standard_squeezenet_seed42": {
+            "last_epoch": 31,
+            "best_val_loss": 0.06272325282656883
+        },
+        "Baseline_standard_squeezenet_seed43": {
+            "last_epoch": 49,
+            "best_val_loss": 0.062195869515758846
+        },
+        "Baseline_standard_squeezenet_seed44": {
+            "last_epoch": 18,
+            "best_val_loss": 0.12085168621422931
+        },
+        "Baseline_standard_squeezenet_seed45": {
+            "last_epoch": 16,
+            "best_val_loss": 0.12131078813361207
+        },
+        "Baseline_standard_squeezenet_seed46": {
+            "last_epoch": 26,
+            "best_val_loss": 0.09416431085574985
+        },
+        "SG-OTSU-masking_standard_squeezenet_seed42": {
+            "last_epoch": 36,
+            "best_val_loss": 0.11898070352149967
+        },
+        "SG-OTSU-masking_standard_squeezenet_seed43": {
+            "last_epoch": 31,
+            "best_val_loss": 0.16999561180789705
+        },
+        "SG-OTSU-masking_standard_squeezenet_seed44": {
+            "last_epoch": 32,
+            "best_val_loss": 0.17678680585058884
+        },
+        "SG-OTSU-masking_standard_squeezenet_seed45": {
+            "last_epoch": 46,
+            "best_val_loss": 0.1477124658543003
+        },
+        "SG-OTSU-masking_standard_squeezenet_seed46": {
+            "last_epoch": 37,
+            "best_val_loss": 0.20253503597649897
+        },
+        "SG-OTSU-cropping_standard_squeezenet_seed42": {
+            "last_epoch": 50,
+            "best_val_loss": 0.07056059737508112
+        },
+        "SG-OTSU-cropping_standard_squeezenet_seed43": {
+            "last_epoch": 37,
+            "best_val_loss": 0.09148158688452789
+        },
+        "SG-OTSU-cropping_standard_squeezenet_seed44": {
+            "last_epoch": 50,
+            "best_val_loss": 0.061197198908526616
+        },
+        "SG-OTSU-cropping_standard_squeezenet_seed45": {
+            "last_epoch": 39,
+            "best_val_loss": 0.05997272923054835
+        },
+        "SG-OTSU-cropping_standard_squeezenet_seed46": {
+            "last_epoch": 31,
+            "best_val_loss": 0.0906073351687618
+        },
+        "SG-KMEANS-masking_standard_squeezenet_seed42": {
+            "last_epoch": 49,
+            "best_val_loss": 0.31663047147754997
+        },
+        "SG-KMEANS-masking_standard_squeezenet_seed43": {
+            "last_epoch": 49,
+            "best_val_loss": 0.41328594965473964
+        },
+        "SG-KMEANS-masking_standard_squeezenet_seed44": {
+            "last_epoch": 40,
+            "best_val_loss": 0.3488527637135495
+        },
+        "SG-KMEANS-masking_standard_squeezenet_seed45": {
+            "last_epoch": 49,
+            "best_val_loss": 0.3726572956548754
+        },
+        "SG-KMEANS-masking_standard_squeezenet_seed46": {
+            "last_epoch": 32,
+            "best_val_loss": 0.39236807444584876
+        },
+        "SG-KMEANS-cropping_standard_squeezenet_seed42": {
+            "last_epoch": 29,
+            "best_val_loss": 0.16206550160493705
+        },
+        "SG-KMEANS-cropping_standard_squeezenet_seed43": {
+            "last_epoch": 41,
+            "best_val_loss": 0.16186402960560092
+        },
+        "SG-KMEANS-cropping_standard_squeezenet_seed44": {
+            "last_epoch": 42,
+            "best_val_loss": 0.15160740505320155
+        },
+        "SG-KMEANS-cropping_standard_squeezenet_seed45": {
+            "last_epoch": 50,
+            "best_val_loss": 0.13985434088787219
+        },
+        "SG-KMEANS-cropping_standard_squeezenet_seed46": {
+            "last_epoch": 44,
+            "best_val_loss": 0.2075135221774277
+        },
+        "Baseline_heavy_squeezenet_seed42": {
+            "last_epoch": 15,
+            "best_val_loss": 0.6763816794924575
+        },
+        "Baseline_heavy_squeezenet_seed43": {
+            "last_epoch": 29,
+            "best_val_loss": 0.27417302690378964
+        },
+        "Baseline_heavy_squeezenet_seed44": {
+            "last_epoch": 20,
+            "best_val_loss": 0.35570089742837935
+        },
+        "Baseline_heavy_squeezenet_seed45": {
+            "last_epoch": 25,
+            "best_val_loss": 0.3299550546755879
+        },
+        "Baseline_heavy_squeezenet_seed46": {
+            "last_epoch": 31,
+            "best_val_loss": 0.6104843108023245
+        },
+        "SG-OTSU-masking_heavy_squeezenet_seed42": {
+            "last_epoch": 40,
+            "best_val_loss": 0.7166544019938637
+        },
+        "SG-OTSU-masking_heavy_squeezenet_seed43": {
+            "last_epoch": 17,
+            "best_val_loss": 1.959267681420734
+        },
+        "SG-OTSU-masking_heavy_squeezenet_seed44": {
+            "last_epoch": 32,
+            "best_val_loss": 0.6733541939079956
+        },
+        "SG-OTSU-masking_heavy_squeezenet_seed45": {
+            "last_epoch": 15,
+            "best_val_loss": 1.5563616160676828
+        },
+        "SG-OTSU-masking_heavy_squeezenet_seed46": {
+            "last_epoch": 10,
+            "best_val_loss": 1.7822578034882437
+        },
+        "SG-OTSU-cropping_heavy_squeezenet_seed42": {
+            "last_epoch": 17,
+            "best_val_loss": 0.38921247960388167
+        },
+        "SG-OTSU-cropping_heavy_squeezenet_seed43": {
+            "last_epoch": 16,
+            "best_val_loss": 0.43872642387385563
+        },
+        "SG-OTSU-cropping_heavy_squeezenet_seed44": {
+            "last_epoch": 29,
+            "best_val_loss": 0.1351176442937751
+        },
+        "SG-OTSU-cropping_heavy_squeezenet_seed45": {
+            "last_epoch": 39,
+            "best_val_loss": 0.12075681322555243
+        },
+        "SG-OTSU-cropping_heavy_squeezenet_seed46": {
+            "last_epoch": 35,
+            "best_val_loss": 0.26723341581250204
+        },
+        "SG-KMEANS-masking_heavy_squeezenet_seed42": {
+            "last_epoch": 15,
+            "best_val_loss": 1.5022765224583114
+        },
+        "SG-KMEANS-masking_heavy_squeezenet_seed43": {
+            "last_epoch": 17,
+            "best_val_loss": 1.4335517508803266
+        },
+        "SG-KMEANS-masking_heavy_squeezenet_seed44": {
+            "last_epoch": 29,
+            "best_val_loss": 0.9733431677519736
+        },
+        "SG-KMEANS-masking_heavy_squeezenet_seed45": {
+            "last_epoch": 23,
+            "best_val_loss": 1.1137158014486979
+        },
+        "SG-KMEANS-masking_heavy_squeezenet_seed46": {
+            "last_epoch": 17,
+            "best_val_loss": 1.2870941134496654
+        },
+        "SG-KMEANS-cropping_heavy_squeezenet_seed42": {
+            "last_epoch": 45,
+            "best_val_loss": 0.130932677508889
+        },
+        "SG-KMEANS-cropping_heavy_squeezenet_seed43": {
+            "last_epoch": 50,
+            "best_val_loss": 0.13431341882351513
+        },
+        "SG-KMEANS-cropping_heavy_squeezenet_seed44": {
+            "last_epoch": 50,
+            "best_val_loss": 0.15214537613975626
+        },
+        "SG-KMEANS-cropping_heavy_squeezenet_seed45": {
+            "last_epoch": 50,
+            "best_val_loss": 0.1523792271920619
+        },
+        "SG-KMEANS-cropping_heavy_squeezenet_seed46": {
+            "last_epoch": 34,
+            "best_val_loss": 0.1828877499372231
+        },
+        "Baseline_standard_shufflenetv2_seed42": {
+            "last_epoch": 28,
+            "best_val_loss": 0.020922854244088806
+        },
+        "Baseline_standard_shufflenetv2_seed43": {
+            "last_epoch": 23,
+            "best_val_loss": 0.019802333064828308
+        },
+        "Baseline_standard_shufflenetv2_seed44": {
+            "last_epoch": 31,
+            "best_val_loss": 0.01678481093923677
+        },
+        "Baseline_standard_shufflenetv2_seed45": {
+            "last_epoch": 27,
+            "best_val_loss": 0.02010366568827905
+        },
+        "Baseline_standard_shufflenetv2_seed46": {
+            "last_epoch": 44,
+            "best_val_loss": 0.013116061171416329
+        },
+        "SG-OTSU-masking_standard_shufflenetv2_seed42": {
+            "last_epoch": 34,
+            "best_val_loss": 0.04818323934420409
+        },
+        "SG-OTSU-masking_standard_shufflenetv2_seed43": {
+            "last_epoch": 36,
+            "best_val_loss": 0.036121653348080734
+        },
+        "SG-OTSU-masking_standard_shufflenetv2_seed44": {
+            "last_epoch": 48,
+            "best_val_loss": 0.042028259172485524
+        },
+        "SG-OTSU-masking_standard_shufflenetv2_seed45": {
+            "last_epoch": 23,
+            "best_val_loss": 0.06815941334734771
+        },
+        "SG-OTSU-masking_standard_shufflenetv2_seed46": {
+            "last_epoch": 48,
+            "best_val_loss": 0.04920214899167435
+        },
+        "SG-OTSU-cropping_standard_shufflenetv2_seed42": {
+            "last_epoch": 37,
+            "best_val_loss": 0.021065811360665435
+        },
+        "SG-OTSU-cropping_standard_shufflenetv2_seed43": {
+            "last_epoch": 43,
+            "best_val_loss": 0.020802517891923857
+        },
+        "SG-OTSU-cropping_standard_shufflenetv2_seed44": {
+            "last_epoch": 42,
+            "best_val_loss": 0.02051483631652109
+        },
+        "SG-OTSU-cropping_standard_shufflenetv2_seed45": {
+            "last_epoch": 36,
+            "best_val_loss": 0.02416293484344539
+        },
+        "SG-OTSU-cropping_standard_shufflenetv2_seed46": {
+            "last_epoch": 15,
+            "best_val_loss": 0.05063339581404999
+        },
+        "SG-KMEANS-masking_standard_shufflenetv2_seed42": {
+            "last_epoch": 21,
+            "best_val_loss": 0.25375577193151294
+        },
+        "SG-KMEANS-masking_standard_shufflenetv2_seed43": {
+            "last_epoch": 50,
+            "best_val_loss": 0.14193245627517248
+        },
+        "SG-KMEANS-masking_standard_shufflenetv2_seed44": {
+            "last_epoch": 25,
+            "best_val_loss": 0.22059364167085557
+        },
+        "SG-KMEANS-masking_standard_shufflenetv2_seed45": {
+            "last_epoch": 47,
+            "best_val_loss": 0.16159276223640015
+        },
+        "SG-KMEANS-masking_standard_shufflenetv2_seed46": {
+            "last_epoch": 50,
+            "best_val_loss": 0.15357133999623296
+        },
+        "SG-KMEANS-cropping_standard_shufflenetv2_seed42": {
+            "last_epoch": 43,
+            "best_val_loss": 0.07508612155558361
+        },
+        "SG-KMEANS-cropping_standard_shufflenetv2_seed43": {
+            "last_epoch": 28,
+            "best_val_loss": 0.07802947583111826
+        },
+        "SG-KMEANS-cropping_standard_shufflenetv2_seed44": {
+            "last_epoch": 44,
+            "best_val_loss": 0.07312360577827297
+        },
+        "SG-KMEANS-cropping_standard_shufflenetv2_seed45": {
+            "last_epoch": 42,
+            "best_val_loss": 0.07724771433999648
+        },
+        "SG-KMEANS-cropping_standard_shufflenetv2_seed46": {
+            "last_epoch": 48,
+            "best_val_loss": 0.07486032667342968
+        },
+        "Baseline_heavy_shufflenetv2_seed42": {
+            "last_epoch": 19,
+            "best_val_loss": 0.0878306322266259
+        },
+        "Baseline_heavy_shufflenetv2_seed43": {
+            "last_epoch": 28,
+            "best_val_loss": 0.07192672738401604
+        },
+        "Baseline_heavy_shufflenetv2_seed44": {
+            "last_epoch": 34,
+            "best_val_loss": 0.05482182629039721
+        },
+        "Baseline_heavy_shufflenetv2_seed45": {
+            "last_epoch": 43,
+            "best_val_loss": 0.049527754227169346
+        },
+        "Baseline_heavy_shufflenetv2_seed46": {
+            "last_epoch": 46,
+            "best_val_loss": 0.038133808692436565
+        },
+        "SG-OTSU-masking_heavy_shufflenetv2_seed42": {
+            "last_epoch": 30,
+            "best_val_loss": 0.1494377097637378
+        },
+        "SG-OTSU-masking_heavy_shufflenetv2_seed43": {
+            "last_epoch": 18,
+            "best_val_loss": 0.17596691091812222
+        },
+        "SG-OTSU-masking_heavy_shufflenetv2_seed44": {
+            "last_epoch": 47,
+            "best_val_loss": 0.14908820238345954
+        },
+        "SG-OTSU-masking_heavy_shufflenetv2_seed45": {
+            "last_epoch": 28,
+            "best_val_loss": 0.1401253321379628
+        },
+        "SG-OTSU-masking_heavy_shufflenetv2_seed46": {
+            "last_epoch": 37,
+            "best_val_loss": 0.13338484224356736
+        },
+        "SG-OTSU-cropping_heavy_shufflenetv2_seed42": {
+            "last_epoch": 33,
+            "best_val_loss": 0.05122598773930283
+        },
+        "SG-OTSU-cropping_heavy_shufflenetv2_seed43": {
+            "last_epoch": 36,
+            "best_val_loss": 0.058116673625037585
+        },
+        "SG-OTSU-cropping_heavy_shufflenetv2_seed44": {
+            "last_epoch": 30,
+            "best_val_loss": 0.06759169772388686
+        },
+        "SG-OTSU-cropping_heavy_shufflenetv2_seed45": {
+            "last_epoch": 22,
+            "best_val_loss": 0.0679190164331483
+        },
+        "SG-OTSU-cropping_heavy_shufflenetv2_seed46": {
+            "last_epoch": 33,
+            "best_val_loss": 0.050652803055985206
+        },
+        "SG-KMEANS-masking_heavy_shufflenetv2_seed42": {
+            "last_epoch": 50,
+            "best_val_loss": 0.34424215765522304
+        },
+        "SG-KMEANS-masking_heavy_shufflenetv2_seed43": {
+            "last_epoch": 18,
+            "best_val_loss": 0.4400826630452557
+        },
+        "SG-KMEANS-masking_heavy_shufflenetv2_seed44": {
+            "last_epoch": 20,
+            "best_val_loss": 0.51778709067627
+        },
+        "SG-KMEANS-masking_heavy_shufflenetv2_seed45": {
+            "last_epoch": 33,
+            "best_val_loss": 0.3766398045341907
+        },
+        "SG-KMEANS-masking_heavy_shufflenetv2_seed46": {
+            "last_epoch": 36,
+            "best_val_loss": 0.39142501593671586
+        },
+        "SG-KMEANS-cropping_heavy_shufflenetv2_seed42": {
+            "last_epoch": 28,
+            "best_val_loss": 0.09264754625579995
+        },
+        "SG-KMEANS-cropping_heavy_shufflenetv2_seed43": {
+            "last_epoch": 32,
+            "best_val_loss": 0.08008249817396522
+        },
+        "SG-KMEANS-cropping_heavy_shufflenetv2_seed44": {
+            "last_epoch": 44,
+            "best_val_loss": 0.06055802908239646
+        },
+        "SG-KMEANS-cropping_heavy_shufflenetv2_seed45": {
+            "last_epoch": 45,
+            "best_val_loss": 0.07640279921319792
+        },
+        "SG-KMEANS-cropping_heavy_shufflenetv2_seed46": {
+            "last_epoch": 27,
+            "best_val_loss": 0.09238251772450659
+        },
+        "Baseline_standard_mobilenetv3_seed42": {
+            "last_epoch": 35,
+            "best_val_loss": 0.014793753243074054
+        },
+        "Baseline_standard_mobilenetv3_seed43": {
+            "last_epoch": 50,
+            "best_val_loss": 0.012304022826608375
+        },
+        "Baseline_standard_mobilenetv3_seed44": {
+            "last_epoch": 14,
+            "best_val_loss": 0.04448905465581734
+        },
+        "Baseline_standard_mobilenetv3_seed45": {
+            "last_epoch": 50,
+            "best_val_loss": 0.022041949293691795
+        },
+        "Baseline_standard_mobilenetv3_seed46": {
+            "last_epoch": 24,
+            "best_val_loss": 0.024182689740210286
+        },
+        "SG-OTSU-masking_standard_mobilenetv3_seed42": {
+            "last_epoch": 50,
+            "best_val_loss": 0.03634394357077659
+        },
+        "SG-OTSU-masking_standard_mobilenetv3_seed43": {
+            "last_epoch": 50,
+            "best_val_loss": 0.03505232351814564
+        },
+        "SG-OTSU-masking_standard_mobilenetv3_seed44": {
+            "last_epoch": 39,
+            "best_val_loss": 0.045631188165141626
+        },
+        "SG-OTSU-masking_standard_mobilenetv3_seed45": {
+            "last_epoch": 26,
+            "best_val_loss": 0.04737369078659789
+        },
+        "SG-OTSU-masking_standard_mobilenetv3_seed46": {
+            "last_epoch": 14,
+            "best_val_loss": 0.14672583309779166
+        },
+        "SG-OTSU-cropping_standard_mobilenetv3_seed42": {
+            "last_epoch": 14,
+            "best_val_loss": 0.06666783030929231
+        },
+        "SG-OTSU-cropping_standard_mobilenetv3_seed43": {
+            "last_epoch": 20,
+            "best_val_loss": 0.04675606774470263
+        },
+        "SG-OTSU-cropping_standard_mobilenetv3_seed44": {
+            "last_epoch": 43,
+            "best_val_loss": 0.03897108267910153
+        },
+        "SG-OTSU-cropping_standard_mobilenetv3_seed45": {
+            "last_epoch": 48,
+            "best_val_loss": 0.03592318241372219
+        },
+        "SG-OTSU-cropping_standard_mobilenetv3_seed46": {
+            "last_epoch": 17,
+            "best_val_loss": 0.06162416664502606
+        },
+        "SG-KMEANS-masking_standard_mobilenetv3_seed42": {
+            "last_epoch": 23,
+            "best_val_loss": 0.3752119129673968
+        },
+        "SG-KMEANS-masking_standard_mobilenetv3_seed43": {
+            "last_epoch": 34,
+            "best_val_loss": 0.2695666527482767
+        },
+        "SG-KMEANS-masking_standard_mobilenetv3_seed44": {
+            "last_epoch": 22,
+            "best_val_loss": 0.3709457993313233
+        },
+        "SG-KMEANS-masking_standard_mobilenetv3_seed45": {
+            "last_epoch": 50,
+            "best_val_loss": 0.1852236606215723
+        },
+        "SG-KMEANS-masking_standard_mobilenetv3_seed46": {
+            "last_epoch": 15,
+            "best_val_loss": 0.9418462132182278
+        },
+        "SG-KMEANS-cropping_standard_mobilenetv3_seed42": {
+            "last_epoch": 23,
+            "best_val_loss": 0.09553435087268697
+        },
+        "SG-KMEANS-cropping_standard_mobilenetv3_seed43": {
+            "last_epoch": 50,
+            "best_val_loss": 0.07289357134621352
+        },
+        "SG-KMEANS-cropping_standard_mobilenetv3_seed44": {
+            "last_epoch": 38,
+            "best_val_loss": 0.07937371134191719
+        },
+        "SG-KMEANS-cropping_standard_mobilenetv3_seed45": {
+            "last_epoch": 22,
+            "best_val_loss": 0.10148587243424521
+        },
+        "SG-KMEANS-cropping_standard_mobilenetv3_seed46": {
+            "last_epoch": 44,
+            "best_val_loss": 0.0719774837342404
+        },
+        "Baseline_heavy_mobilenetv3_seed42": {
+            "last_epoch": 17,
+            "best_val_loss": 0.05653531080933636
+        },
+        "Baseline_heavy_mobilenetv3_seed43": {
+            "last_epoch": 16,
+            "best_val_loss": 0.08458033091093033
+        },
+        "Baseline_heavy_mobilenetv3_seed44": {
+            "last_epoch": 11,
+            "best_val_loss": 0.11404747758606747
+        },
+        "Baseline_heavy_mobilenetv3_seed45": {
+            "last_epoch": 50,
+            "best_val_loss": 0.04287412306452268
+        },
+        "Baseline_heavy_mobilenetv3_seed46": {
+            "last_epoch": 21,
+            "best_val_loss": 0.03943296109935942
+        },
+        "SG-OTSU-masking_heavy_mobilenetv3_seed42": {
+            "last_epoch": 49,
+            "best_val_loss": 0.08509739983181051
+        },
+        "SG-OTSU-masking_heavy_mobilenetv3_seed43": {
+            "last_epoch": 33,
+            "best_val_loss": 0.1273340012903797
+        },
+        "SG-OTSU-masking_heavy_mobilenetv3_seed44": {
+            "last_epoch": 50,
+            "best_val_loss": 0.07622214344101262
+        },
+        "SG-OTSU-masking_heavy_mobilenetv3_seed45": {
+            "last_epoch": 36,
+            "best_val_loss": 0.0921774401039241
+        },
+        "SG-OTSU-masking_heavy_mobilenetv3_seed46": {
+            "last_epoch": 14,
+            "best_val_loss": 0.33907305560075757
+        },
+        "SG-OTSU-cropping_heavy_mobilenetv3_seed42": {
+            "last_epoch": 40,
+            "best_val_loss": 0.03531150322965671
+        },
+        "SG-OTSU-cropping_heavy_mobilenetv3_seed43": {
+            "last_epoch": 50,
+            "best_val_loss": 0.028664352341236193
+        },
+        "SG-OTSU-cropping_heavy_mobilenetv3_seed44": {
+            "last_epoch": 33,
+            "best_val_loss": 0.04373009833426343
+        },
+        "SG-OTSU-cropping_heavy_mobilenetv3_seed45": {
+            "last_epoch": 29,
+            "best_val_loss": 0.05978782046377292
+        },
+        "SG-OTSU-cropping_heavy_mobilenetv3_seed46": {
+            "last_epoch": 49,
+            "best_val_loss": 0.038490717031312426
+        },
+        "SG-KMEANS-masking_heavy_mobilenetv3_seed42": {
+            "last_epoch": 24,
+            "best_val_loss": 0.512167776198306
+        },
+        "SG-KMEANS-masking_heavy_mobilenetv3_seed43": {
+            "last_epoch": 14,
+            "best_val_loss": 1.3556826463696579
+        },
+        "SG-KMEANS-masking_heavy_mobilenetv3_seed44": {
+            "last_epoch": 19,
+            "best_val_loss": 0.7942510161587953
+        },
+        "SG-KMEANS-masking_heavy_mobilenetv3_seed45": {
+            "last_epoch": 24,
+            "best_val_loss": 0.6849575262439885
+        },
+        "SG-KMEANS-masking_heavy_mobilenetv3_seed46": {
+            "last_epoch": 22,
+            "best_val_loss": 0.8287646830017222
+        },
+        "SG-KMEANS-cropping_heavy_mobilenetv3_seed42": {
+            "last_epoch": 33,
+            "best_val_loss": 0.09031076426744203
+        },
+        "SG-KMEANS-cropping_heavy_mobilenetv3_seed43": {
+            "last_epoch": 50,
+            "best_val_loss": 0.07545989195179495
+        },
+        "SG-KMEANS-cropping_heavy_mobilenetv3_seed44": {
+            "last_epoch": 41,
+            "best_val_loss": 0.07413685166958209
+        },
+        "SG-KMEANS-cropping_heavy_mobilenetv3_seed45": {
+            "last_epoch": 33,
+            "best_val_loss": 0.08253853753144397
+        },
+        "SG-KMEANS-cropping_heavy_mobilenetv3_seed46": {
+            "last_epoch": 27,
+            "best_val_loss": 0.08628420542401116
+        },
+        "Baseline_standard_efficientnet_b0_seed42": {
+            "last_epoch": 12,
+            "best_val_loss": 0.020302355545294856
+        },
+        "Baseline_standard_efficientnet_b0_seed43": {
+            "last_epoch": 18,
+            "best_val_loss": 0.018479176222943674
+        },
+        "Baseline_standard_efficientnet_b0_seed44": {
+            "last_epoch": 50,
+            "best_val_loss": 0.006524761043217715
+        },
+        "Baseline_standard_efficientnet_b0_seed45": {
+            "last_epoch": 21,
+            "best_val_loss": 0.01085489809124114
+        },
+        "Baseline_standard_efficientnet_b0_seed46": {
+            "last_epoch": 38,
+            "best_val_loss": 0.009673574632610727
+        },
+        "SG-OTSU-masking_standard_efficientnet_b0_seed42": {
+            "last_epoch": 28,
+            "best_val_loss": 0.027393020551963167
+        },
+        "SG-OTSU-masking_standard_efficientnet_b0_seed43": {
+            "last_epoch": 42,
+            "best_val_loss": 0.01944470621176587
+        },
+        "SG-OTSU-masking_standard_efficientnet_b0_seed44": {
+            "last_epoch": 39,
+            "best_val_loss": 0.0179744580711049
+        },
+        "SG-OTSU-masking_standard_efficientnet_b0_seed45": {
+            "last_epoch": 20,
+            "best_val_loss": 0.040157930987467096
+        },
+        "SG-OTSU-masking_standard_efficientnet_b0_seed46": {
+            "last_epoch": 20,
+            "best_val_loss": 0.036967449827093414
+        },
+        "SG-OTSU-cropping_standard_efficientnet_b0_seed42": {
+            "last_epoch": 34,
+            "best_val_loss": 0.021312654186894636
+        },
+        "SG-OTSU-cropping_standard_efficientnet_b0_seed43": {
+            "last_epoch": 33,
+            "best_val_loss": 0.019002291584576853
+        },
+        "SG-OTSU-cropping_standard_efficientnet_b0_seed44": {
+            "last_epoch": 24,
+            "best_val_loss": 0.021842551259816077
+        },
+        "SG-OTSU-cropping_standard_efficientnet_b0_seed45": {
+            "last_epoch": 30,
+            "best_val_loss": 0.018808578066372792
+        },
+        "SG-OTSU-cropping_standard_efficientnet_b0_seed46": {
+            "last_epoch": 28,
+            "best_val_loss": 0.0223638546439727
+        },
+        "SG-KMEANS-masking_standard_efficientnet_b0_seed42": {
+            "last_epoch": 38,
+            "best_val_loss": 0.10697501798309021
+        },
+        "SG-KMEANS-masking_standard_efficientnet_b0_seed43": {
+            "last_epoch": 23,
+            "best_val_loss": 0.14331253516341827
+        },
+        "SG-KMEANS-masking_standard_efficientnet_b0_seed44": {
+            "last_epoch": 50,
+            "best_val_loss": 0.09375237343867232
+        },
+        "SG-KMEANS-masking_standard_efficientnet_b0_seed45": {
+            "last_epoch": 50,
+            "best_val_loss": 0.10134431635647462
+        },
+        "SG-KMEANS-masking_standard_efficientnet_b0_seed46": {
+            "last_epoch": 50,
+            "best_val_loss": 0.10251347101224405
+        },
+        "SG-KMEANS-cropping_standard_efficientnet_b0_seed42": {
+            "last_epoch": 30,
+            "best_val_loss": 0.06380763260962477
+        },
+        "SG-KMEANS-cropping_standard_efficientnet_b0_seed43": {
+            "last_epoch": 26,
+            "best_val_loss": 0.06514709716958711
+        },
+        "SG-KMEANS-cropping_standard_efficientnet_b0_seed44": {
+            "last_epoch": 13,
+            "best_val_loss": 0.09005831083039464
+        },
+        "SG-KMEANS-cropping_standard_efficientnet_b0_seed45": {
+            "last_epoch": 22,
+            "best_val_loss": 0.07278909410444068
+        },
+        "SG-KMEANS-cropping_standard_efficientnet_b0_seed46": {
+            "last_epoch": 26,
+            "best_val_loss": 0.06907142717606977
+        },
+        "Baseline_heavy_efficientnet_b0_seed42": {
+            "last_epoch": 50,
+            "best_val_loss": 0.008839941914038701
+        },
+        "Baseline_heavy_efficientnet_b0_seed43": {
+            "last_epoch": 31,
+            "best_val_loss": 0.013015490816046568
+        },
+        "Baseline_heavy_efficientnet_b0_seed44": {
+            "last_epoch": 36,
+            "best_val_loss": 0.009172006592105965
+        },
+        "Baseline_heavy_efficientnet_b0_seed45": {
+            "last_epoch": 17,
+            "best_val_loss": 0.024682205843183383
+        },
+        "Baseline_heavy_efficientnet_b0_seed46": {
+            "last_epoch": 28,
+            "best_val_loss": 0.02195073363792193
+        },
+        "SG-OTSU-masking_heavy_efficientnet_b0_seed42": {
+            "last_epoch": 42,
+            "best_val_loss": 0.044265036225633055
+        },
+        "SG-OTSU-masking_heavy_efficientnet_b0_seed43": {
+            "last_epoch": 26,
+            "best_val_loss": 0.06327921997349935
+        },
+        "SG-OTSU-masking_heavy_efficientnet_b0_seed44": {
+            "last_epoch": 50,
+            "best_val_loss": 0.0394878874307379
+        },
+        "SG-OTSU-masking_heavy_efficientnet_b0_seed45": {
+            "last_epoch": 26,
+            "best_val_loss": 0.05841603724523931
+        },
+        "SG-OTSU-masking_heavy_efficientnet_b0_seed46": {
+            "last_epoch": 32,
+            "best_val_loss": 0.046630512714693394
+        },
+        "SG-OTSU-cropping_heavy_efficientnet_b0_seed42": {
+            "last_epoch": 39,
+            "best_val_loss": 0.022060466785414647
+        },
+        "SG-OTSU-cropping_heavy_efficientnet_b0_seed43": {
+            "last_epoch": 50,
+            "best_val_loss": 0.021706820696095492
+        },
+        "SG-OTSU-cropping_heavy_efficientnet_b0_seed44": {
+            "last_epoch": 50,
+            "best_val_loss": 0.0236794934998832
+        },
+        "SG-OTSU-cropping_heavy_efficientnet_b0_seed45": {
+            "last_epoch": 32,
+            "best_val_loss": 0.022180424355323705
+        },
+        "SG-OTSU-cropping_heavy_efficientnet_b0_seed46": {
+            "last_epoch": 16,
+            "best_val_loss": 0.038298970604078775
+        },
+        "SG-KMEANS-masking_heavy_efficientnet_b0_seed42": {
+            "last_epoch": 33,
+            "best_val_loss": 0.1947813057692919
+        },
+        "SG-KMEANS-masking_heavy_efficientnet_b0_seed43": {
+            "last_epoch": 37,
+            "best_val_loss": 0.16571069275538988
+        },
+        "SG-KMEANS-masking_heavy_efficientnet_b0_seed44": {
+            "last_epoch": 44,
+            "best_val_loss": 0.17593622828118835
+        },
+        "SG-KMEANS-masking_heavy_efficientnet_b0_seed45": {
+            "last_epoch": 38,
+            "best_val_loss": 0.18534815132380653
+        },
+        "SG-KMEANS-masking_heavy_efficientnet_b0_seed46": {
+            "last_epoch": 36,
+            "best_val_loss": 0.16604174690006265
+        },
+        "SG-KMEANS-cropping_heavy_efficientnet_b0_seed42": {
+            "last_epoch": 50,
+            "best_val_loss": 0.04706674414628546
+        },
+        "SG-KMEANS-cropping_heavy_efficientnet_b0_seed43": {
+            "last_epoch": 29,
+            "best_val_loss": 0.06030998221378459
+        },
+        "SG-KMEANS-cropping_heavy_efficientnet_b0_seed44": {
+            "last_epoch": 50,
+            "best_val_loss": 0.05150280731156808
+        },
+        "SG-KMEANS-cropping_heavy_efficientnet_b0_seed45": {
+            "last_epoch": 26,
+            "best_val_loss": 0.06330472955879982
+        },
+        "SG-KMEANS-cropping_heavy_efficientnet_b0_seed46": {
+            "last_epoch": 34,
+            "best_val_loss": 0.05936569562488563
+        }
+    },
+    "evaluated_models": [
+        "Baseline_heavy_mobilenetv2",
+        "Baseline_heavy_mobilenetv3",
+        "Baseline_heavy_shufflenetv2",
+        "Baseline_heavy_squeezenet",
+        "Baseline_standard_mobilenetv2",
+        "Baseline_standard_mobilenetv3",
+        "Baseline_standard_shufflenetv2",
+        "Baseline_standard_squeezenet",
+        "Baseline_heavy_efficientnet_b0",
+        "Baseline_standard_efficientnet_b0",
+        "SG-KMEANS-cropping_heavy_efficientnet_b0",
+        "SG-KMEANS-cropping_heavy_mobilenetv2",
+        "SG-KMEANS-cropping_heavy_mobilenetv3",
+        "SG-KMEANS-cropping_heavy_shufflenetv2",
+        "SG-KMEANS-cropping_heavy_squeezenet",
+        "SG-KMEANS-cropping_standard_efficientnet_b0",
+        "SG-KMEANS-cropping_standard_mobilenetv2",
+        "SG-KMEANS-cropping_standard_mobilenetv3",
+        "SG-KMEANS-cropping_standard_shufflenetv2",
+        "SG-KMEANS-cropping_standard_squeezenet",
+        "SG-KMEANS-masking_heavy_efficientnet_b0",
+        "SG-KMEANS-masking_heavy_mobilenetv2",
+        "SG-KMEANS-masking_heavy_mobilenetv3",
+        "SG-KMEANS-masking_heavy_shufflenetv2",
+        "SG-KMEANS-masking_heavy_squeezenet",
+        "SG-KMEANS-masking_standard_efficientnet_b0",
+        "SG-KMEANS-masking_standard_mobilenetv2",
+        "SG-KMEANS-masking_standard_mobilenetv3",
+        "SG-KMEANS-masking_standard_shufflenetv2",
+        "SG-KMEANS-masking_standard_squeezenet",
+        "SG-OTSU-cropping_heavy_efficientnet_b0",
+        "SG-OTSU-cropping_heavy_mobilenetv2",
+        "SG-OTSU-cropping_heavy_mobilenetv3",
+        "SG-OTSU-cropping_heavy_shufflenetv2",
+        "SG-OTSU-cropping_heavy_squeezenet",
+        "SG-OTSU-cropping_standard_efficientnet_b0",
+        "SG-OTSU-cropping_standard_mobilenetv2",
+        "SG-OTSU-cropping_standard_mobilenetv3",
+        "SG-OTSU-cropping_standard_shufflenetv2",
+        "SG-OTSU-cropping_standard_squeezenet",
+        "SG-OTSU-masking_heavy_efficientnet_b0",
+        "SG-OTSU-masking_heavy_mobilenetv2",
+        "SG-OTSU-masking_heavy_mobilenetv3",
+        "SG-OTSU-masking_heavy_shufflenetv2",
+        "SG-OTSU-masking_heavy_squeezenet",
+        "SG-OTSU-masking_standard_efficientnet_b0",
+        "SG-OTSU-masking_standard_mobilenetv2",
+        "SG-OTSU-masking_standard_mobilenetv3",
+        "SG-OTSU-masking_standard_shufflenetv2",
+        "SG-OTSU-masking_standard_squeezenet"
+    ],
+    "completed_phases": []
+}
