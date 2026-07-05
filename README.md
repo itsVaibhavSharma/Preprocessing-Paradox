@@ -8,8 +8,7 @@
 **Authors:** Vaibhav Sharma, Rajni Ranjan Singh Makwana  
 **Affiliation:** Centre for Artificial Intelligence, Madhav Institute of Technology and Science, Gwalior, India  
 **Paper:** *"Preprocessing Paradox: Enhancing Lightweight CNNs for Plant Disease Classification via Explainable AI"*  
-**Journal:** [The Visual Computer](https://link.springer.com/journal/371) — Under Review  
-**Submission ID:** a6b5dc51-5bb5-4f10-91d3-37060caed503
+**Journal:** [The Visual Computer](https://link.springer.com/journal/371) — Under Review
 
 ---
 
